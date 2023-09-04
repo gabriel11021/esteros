@@ -1,0 +1,12 @@
+CREATE DATA esteros ;
+// seleccion de la base de datos//
+USE esteros ;
+// crear la tabla del usuario//
+CREATE TABLE ingresos (
+Id_ingreso INT PRIMARY KEY AUTO_INCREMENT,
+Nombre VARCHAR ( 50 ) NOT NULL
+Tipo VARCHAR ( 50 ) NOT NULL
+costo INT ( 30 ) NOT NULL
+iva INT (50) NOT NULL
+Descuento INT (50) NOT NULL
+promocion VARCHAR (50) NOT NULL

@@ -1,0 +1,10 @@
+CREATE DATA esteros ;
+// seleccion de la base de datos//
+USE esteros ;
+// crear la tabla del usuario//
+CREATE TABLE proveedores (
+Id_proveedor INT PRIMARY KEY AUTO_INCREMENT,
+Nombre VARCHAR ( 50 ) NOT NULL
+Apellido VARCHAR ( 50 ) NOT NULL
+Nombre de Empresa VARCHAR (50) NOT NULL
+Telefono INT ( 30 ) NOT NULL

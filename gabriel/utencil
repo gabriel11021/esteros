@@ -1,0 +1,8 @@
+CREATE DATA esteros ;
+// seleccion de la base de datos//
+USE esteros ;
+// crear la tabla del usuario//
+CREATE TABLE utencilios (
+Id_utencilios INT PRIMARY KEY AUTO_INCREMENT,
+Nombre VARCHAR ( 50 ) NOT NULL
+Tipo VARCHAR ( 50 ) NOT NULL

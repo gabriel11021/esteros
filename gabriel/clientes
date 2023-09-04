@@ -1,0 +1,10 @@
+CREATE DATA esteros ;
+// selección de la base de datos//
+USE esteros ;
+// crear la tabla del usuario//
+CREATE TABLE clientes (
+Id_Usuario INT PRIMARY KEY AUTO_INCREMENT,
+Nombre VARCHAR ( 50 ) NOT NULL
+Apellido VARCHAR ( 50 ) NOT NULL
+Teléfono INT ( 30 ) NOT NULL
+correo VARCHAR (50) NOT NULL
